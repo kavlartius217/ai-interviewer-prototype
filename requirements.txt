@@ -8,4 +8,6 @@ gtts
 sounddevice
 soundfile
 pysqlite3-binary
+chromadb
+
 
