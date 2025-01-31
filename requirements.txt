@@ -7,5 +7,5 @@ langchain-groq
 gtts
 sounddevice
 soundfile
-
+pysqlite3-binary
 
