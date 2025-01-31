@@ -1,2 +1,11 @@
-pip install --upgrade pip
+openai
+streamlit
+crewai
+crewai-tools
+langchain-community
+langchain-groq
+gtts
+sounddevice
+soundfile
+
 
