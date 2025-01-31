@@ -1,1 +1,1 @@
-openai streamlit crewai crewai_tools langchain_community langchain_groq gtts sounddevice soundfile
+pip==25.0 openai streamlit crewai crewai_tools langchain_community langchain_groq gtts sounddevice soundfile
