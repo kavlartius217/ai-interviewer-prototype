@@ -1,1 +1,1 @@
-pip install openai streamlit crewai crewai_tools langchain_community langchain_groq gtts sounddevice soundfile
+--upgrade pip install openai streamlit crewai crewai_tools langchain_community langchain_groq gtts sounddevice soundfile
