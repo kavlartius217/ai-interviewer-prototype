@@ -4,6 +4,15 @@ from crewai import Agent, Task, Crew
 from crewai_tools import TXTSearchTool, PDFSearchTool
 from langchain_groq import ChatGroq
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
+import os
+os.environ["LD_LIBRARY_PATH"] = os.path.expanduser("~/sqlite/lib")
+os.environ["PATH"] = os.path.expanduser("~/sqlite/bin") + ":" + os.environ["PATH"]
+
+import sqlite3
+print("SQLite version:", sqlite3.sqlite_version)  # Should print 3.35.0+
+
+import chromadb  # Now Chroma should work fine
+
 
 class MessageHistory:
     def __init__(self):
